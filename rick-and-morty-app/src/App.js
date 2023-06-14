@@ -22,9 +22,6 @@ function App() {
       .catch(error => console.log(error))
   };
 
-  const onPrevious = () => {
-    fetchCharacters(info.next);
-  }
 
   const onNext = () => {
     fetchCharacters(info.next);
@@ -42,9 +39,10 @@ function App() {
 
       <Navbar brand='Characters' />
       <div className='container mt-4'>
-        <Pagination prev={info.prev} next={info.next} onPrevious={onPrevious} onNext={onNext} />
+        <Pagination prev={info.prev} next={info.next} onNext={onNext} />
         <Characters characters={characters} />
-        <Pagination prev={info.prev} next={info.next} onPrevious={onPrevious} onNext={onNext} />
+        <Pagination prev={info.prev} next={info.next} onNext={onNext} />
+        <p className='text-center my-5 fw-bold'>By Vanesascode</p>
       </div>
 
     </>

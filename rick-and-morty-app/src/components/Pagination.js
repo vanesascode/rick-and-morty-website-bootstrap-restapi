@@ -2,11 +2,8 @@ import React from "react";
 
 
 
-const Pagination = ({ prev, next, onPrevious, onNext }) => {
+const Pagination = ({ next, onNext }) => {
 
-  const handlePrevious = () => {
-    onPrevious();
-  }
 
   const handleNext = () => {
     onNext();
@@ -15,15 +12,7 @@ const Pagination = ({ prev, next, onPrevious, onNext }) => {
 
   return (
     <nav>
-      <ul className="pagination justify-content-end">
-        {
-          prev ?
-            (<li className="page-item">
-              <button className="mt-0 page-link link-dark" onClick={handlePrevious}>Previous</button>
-            </li>)
-            :
-            null
-        }
+      <ul className="pagination justify-content-center">
         {
           next ? (<li className="page-item">
             <button className="mt-0 page-link link-dark" onClick={handleNext}>More Characters</button>
