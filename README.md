@@ -1,4 +1,4 @@
-# Rick and Morty React & Boostrap website consuming a REST API
+# Rick and Morty React & Bootstrap website consuming a REST API
 
 ✐ My first app using React and Bootstrap, and consuming a REST API, that shows information about the different characters from the Rick and Morty series.
 
