@@ -1,0 +1,11 @@
+{
+  "files": {
+    "main.js": "/rick-and-morty-website-with-rest-api/static/js/main.a19acdf8.js",
+    "static/media/rick-e-morty.jpg": "/rick-and-morty-website-with-rest-api/static/media/rick-e-morty.c6ec545a1e5abe157ef1.jpg",
+    "index.html": "/rick-and-morty-website-with-rest-api/index.html",
+    "main.a19acdf8.js.map": "/rick-and-morty-website-with-rest-api/static/js/main.a19acdf8.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.a19acdf8.js"
+  ]
+}
