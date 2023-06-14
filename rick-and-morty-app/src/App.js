@@ -27,8 +27,8 @@ function App() {
   return (
     <>
 
-      <Navbar brand='Rick and Morty App' />
-      <div className='container mt-5'>
+      <Navbar brand='Characters' />
+      <div className='container mt-4'>
         <Pagination />
         <Characters characters={characters} />
         <Pagination />

@@ -15,12 +15,12 @@ const Pagination = ({ onPrevious, onNext }) => {
 
   return (
     <nav>
-      <ul className="pagination justify-content-center">
+      <ul className="pagination justify-content-end">
         <li className="page-item">
-          <button className="page-link" onClick={handlePrevious}>Previous</button>
+          <button className="mt-0 page-link link-dark" onClick={handlePrevious}>Previous</button>
         </li>
         <li className="page-item">
-          <button className="page-link" onClick={handleNext}>Next</button>
+          <button className="mt-0 page-link link-dark" onClick={handleNext}>More Characters</button>
         </li>
       </ul>
 
